@@ -80,8 +80,8 @@ const FnB = (props) => {
     instructions: "",
     longDescription: "",
     description: "",
+    vegNonVeg: "",
     isReturnable: "false",
-    isVegetarian: "false",
     isCancellable: "false",
     availableOnCod: "false",
     images: [],
@@ -93,6 +93,7 @@ const FnB = (props) => {
     brandOwnerFSSAILicenseNo: "",
     fulfillmentOption: "",
     countryOfOrigin: "",
+    UOMValue: "",
   };
 
   const productInfoForm = useForm({
@@ -307,8 +308,45 @@ const FnB = (props) => {
         ? `Cannot be more than ${MAX_STRING_LENGTH_14} characters`
         : "";
 
-    formErrors.storeTimes = getStoreTimesErrors();
+    formErrors.vegNonVeg = formValues?.vegNonVeg?.trim() === "" ? "Field cannot be empty" : "";
 
+    formErrors.MRP = !formValues?.MRP
+      ? "Please enter a valid number"
+      : !isAmountValid(formValues?.MRP)
+      ? "Please enter only digit"
+      : "";
+    formErrors.retailPrice = !formValues?.retailPrice
+      ? "Please enter a valid number"
+      : !isAmountValid(formValues?.retailPrice)
+      ? "Please enter only digit"
+      : "";
+    formErrors.purchasePrice = !formValues?.purchasePrice
+      ? "Please enter a valid number"
+      : !isAmountValid(formValues?.purchasePrice)
+      ? "Please enter only digit"
+      : "";
+    formErrors.quantity = !formValues?.quantity
+      ? "Please enter a valid Quantity"
+      : !isNumberOnly(formValues?.quantity)
+      ? "Please enter only digit"
+      : "";
+
+    formErrors.barcode = !formValues?.barcode
+      ? "Please enter a valid Barcode"
+      : !isNumberOnly(formValues?.barcode)
+      ? "Please enter only digit"
+      : formValues?.barcode?.length > MAX_STRING_LENGTH_12
+      ? `Cannot be more than ${MAX_STRING_LENGTH_12} characters`
+      : "";
+
+    formErrors.UOMValue = formValues?.UOMValue?.trim() === "" ? "UOMValue is required" : "";
+
+    formErrors.images =
+      formValues?.productCategory !== "f_and_b" && formValues?.images.length < 3 ? "Minimum 3 images are required" : "";
+
+    console.log(formValues);
+
+    formErrors.storeTimes = getStoreTimesErrors();
     if (formValues?.productCategory) {
       const subCatList = PRODUCT_SUBCATEGORY[formValues?.productCategory];
       const selectedSubCatObject = subCatList?.find((subitem) => subitem.value === formValues?.productSubcategory1);

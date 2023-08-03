@@ -21,96 +21,6 @@ import FnB from "./F&B/FnB";
 import RadioGroup from "@mui/material/RadioGroup";
 import Radio from "@mui/material/Radio";
 
-const customization_groups = [
-  {
-    id: "CG1",
-    name: "Crust(Select any 1)",
-    inputType: "select",
-    minQuantity: 1,
-    maxQuantity: 1,
-    seq: 1,
-  },
-  {
-    id: "CG2",
-    name: "Size(Select any 1)",
-    inputType: "select",
-    minQuantity: 1,
-    maxQuantity: 1,
-    seq: 2,
-  },
-  {
-    id: "CG3",
-    name: "Size(Select any 1)",
-    inputType: "select",
-    minQuantity: 1,
-    maxQuantity: 1,
-    seq: 2,
-  },
-  {
-    id: "CG4",
-    name: "Toppings(Select any 1)",
-    inputType: "select",
-    minQuantity: 1,
-    maxQuantity: 1,
-    seq: 3,
-  },
-];
-
-const Customizations = [
-  {
-    id: "C1",
-    name: "Hand tossed",
-    price: 299,
-    inStock: true,
-    parent: "CG1",
-    child: "CG2",
-  },
-  {
-    id: "C2",
-    name: "Thin crust",
-    price: 349,
-    inStock: true,
-    parent: "CG1",
-    child: "CG3",
-  },
-  {
-    id: "C3",
-    name: "Regular",
-    price: 50,
-    inStock: true,
-    parent: "CG2",
-    child: "CG4",
-  },
-  {
-    id: "C4",
-    name: "Large",
-    price: 100,
-    inStock: true,
-    parent: "CG2",
-  },
-  {
-    id: "C5",
-    name: "Small",
-    price: 30,
-    inStock: true,
-    parent: "CG3",
-  },
-  {
-    id: "C6",
-    name: "Large",
-    price: 120,
-    inStock: true,
-    parent: "CG3",
-  },
-  {
-    id: "C7",
-    name: "Olives",
-    price: 120,
-    inStock: true,
-    parent: "CG4",
-  },
-];
-
 export default function AddProduct() {
   const navigate = useNavigate();
   const { state } = useLocation();
@@ -138,11 +48,8 @@ export default function AddProduct() {
   useEffect(() => {
     if (categoryForm.formValues?.productCategory) {
       let data = [...fields]; // Create a copy of the fields array
-      const subCategoryIndex = data.findIndex(
-        (item) => item.id === "productSubcategory1"
-      );
-      data[subCategoryIndex].options =
-        PRODUCT_SUBCATEGORY[categoryForm.formValues?.productCategory];
+      const subCategoryIndex = data.findIndex((item) => item.id === "productSubcategory1");
+      data[subCategoryIndex].options = PRODUCT_SUBCATEGORY[categoryForm.formValues?.productCategory];
       setFields(data);
       setVariationOn("none");
     }
@@ -156,9 +63,7 @@ export default function AddProduct() {
       let properties = category_data?.hasOwnProperty(sub_category)
         ? category_data[sub_category]
         : category_data["default"] || [];
-      let variants = properties?.filter(
-        (property) => property.variationAllowed
-      );
+      let variants = properties?.filter((property) => property.variationAllowed);
       let variants_checkbox_map = variants?.reduce((acc, variant) => {
         acc[variant.name] = false;
         return acc;
@@ -207,11 +112,7 @@ export default function AddProduct() {
           Select Variants
         </label>
         <Box sx={{ display: "flex" }}>
-          <FormControl
-            sx={{ ml: 3, display: "flex" }}
-            component="fieldset"
-            variant="standard"
-          >
+          <FormControl sx={{ ml: 3, display: "flex" }} component="fieldset" variant="standard">
             <FormGroup sx={{ display: "flex" }}>
               {variants?.map(({ name }) => (
                 <FormControlLabel
@@ -235,24 +136,18 @@ export default function AddProduct() {
 
   const getSelectedVariantNames = () => {
     let variant_names = Object.keys(variantsCheckboxState);
-    return variant_names.filter(
-      (variant_name) => variantsCheckboxState[variant_name]
-    );
+    return variant_names.filter((variant_name) => variantsCheckboxState[variant_name]);
   };
 
   const anyVariantSelected = () => {
     let variant_names = Object.keys(variantsCheckboxState);
-    return variant_names.some(
-      (variant_name) => variantsCheckboxState[variant_name]
-    );
+    return variant_names.some((variant_name) => variantsCheckboxState[variant_name]);
   };
 
   const renderVariants = () => {
     return (
       <FormControl>
-        <div className="text-sm py-2 ml-1 font-medium text-left text-[#606161] inline-block mt-2">
-          Variation On
-        </div>
+        <div className="text-sm py-2 ml-1 font-medium text-left text-[#606161] inline-block mt-2">Variation On</div>
         <RadioGroup
           aria-labelledby="demo-controlled-radio-buttons-group"
           name="controlled-radio-buttons-group"
@@ -261,11 +156,7 @@ export default function AddProduct() {
           sx={{ paddingLeft: "22px" }}
         >
           <FormControlLabel value="none" control={<Radio />} label="None" />
-          <FormControlLabel
-            value="attributes"
-            control={<Radio />}
-            label="Attribute"
-          />
+          <FormControlLabel value="attributes" control={<Radio />} label="Attribute" />
           <FormControlLabel value="uom" control={<Radio />} label="UOM" />
         </RadioGroup>
       </FormControl>
@@ -286,12 +177,7 @@ export default function AddProduct() {
 
       if (!selectedCategory) selectedCategory = state?.productCategory;
       if (selectedCategory === "F&B") {
-        return (
-          <FnB
-            category={selectedCategory}
-            subCategory={categoryForm.formValues?.productSubcategory1}
-          />
-        );
+        return <FnB category={selectedCategory} subCategory={categoryForm.formValues?.productSubcategory1} />;
       } else {
         return (
           <AddGenericProduct
@@ -316,9 +202,7 @@ export default function AddProduct() {
           className="w-full bg-white px-4 py-4 rounded-md h-full scrollbar-hidden"
           style={{ minHeight: "95%", maxHeight: "100%", overflow: "auto" }}
         >
-          <BackNavigationButton
-            onClick={() => navigate("/application/inventory")}
-          />
+          <BackNavigationButton onClick={() => navigate("/application/inventory")} />
           <div className="w-full !h-full">
             <label className="ml-2 md:mb-4 md:mt-3 mt-2 font-semibold text-xl">
               {state?.productId == undefined ? "Add Product" : "Update Product"}
@@ -343,9 +227,7 @@ export default function AddProduct() {
                     !(
                       categoryForm.formValues["productCategory"] &&
                       categoryForm.formValues["productSubcategory1"] &&
-                      (variationOn === "none" ||
-                        variationOn === "uom" ||
-                        anyVariantSelected())
+                      (variationOn === "none" || variationOn === "uom" || anyVariantSelected())
                     )
                   }
                   onClick={() => setRenderCategories(false)}

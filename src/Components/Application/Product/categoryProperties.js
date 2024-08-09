@@ -2099,7 +2099,7 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "input"
+                "type": "input",
             },
             {
                 "name": "Size Chart",
@@ -28856,16 +28856,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -28881,16 +28879,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -28906,16 +28902,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -28931,16 +28925,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -28956,16 +28948,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+               "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -28981,16 +28971,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29006,16 +28994,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+              "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29031,16 +29017,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29056,16 +29040,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+               "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29081,16 +29063,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29106,16 +29086,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29131,16 +29109,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29156,16 +29132,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29181,16 +29155,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29206,16 +29178,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29231,16 +29201,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29256,16 +29224,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29281,16 +29247,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29306,16 +29270,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29331,16 +29293,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29356,16 +29316,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29381,16 +29339,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29406,16 +29362,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29431,16 +29385,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29456,16 +29408,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29481,16 +29431,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29506,16 +29454,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29531,16 +29477,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29556,16 +29500,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29581,16 +29523,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29606,16 +29546,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29631,16 +29569,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29656,16 +29592,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29681,16 +29615,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29706,16 +29638,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29731,16 +29661,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29756,16 +29684,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",
@@ -29781,16 +29707,14 @@ export const allProperties = {
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/brand**"
+                "type": "input",
             },
             {
                 "name": "Prescription Required",
                 "required": true,
                 "example": "",
                 "variationAllowed": false,
-                "type": "select",
-                "options": "propertyEnums/prescription_required**"
+               "type": "input",
             },
             {
                 "name": "Usage Instruction",

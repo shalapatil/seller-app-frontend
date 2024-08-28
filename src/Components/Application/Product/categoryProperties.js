@@ -27436,7 +27436,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -27451,7 +27451,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -27531,7 +27531,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -27546,7 +27546,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -27626,7 +27626,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -27641,7 +27641,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -27721,7 +27721,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -27736,7 +27736,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -27816,7 +27816,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -27831,7 +27831,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -27911,7 +27911,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -27926,7 +27926,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28006,7 +28006,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28021,7 +28021,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28101,7 +28101,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28116,7 +28116,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28196,7 +28196,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28211,7 +28211,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28291,7 +28291,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28306,7 +28306,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28386,7 +28386,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28401,7 +28401,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28481,7 +28481,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28496,7 +28496,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28576,7 +28576,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28591,7 +28591,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28671,7 +28671,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28686,7 +28686,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
@@ -28766,7 +28766,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/colour**"
+                "options": colors
             },
             {
                 "name": "Colour Name",
@@ -28781,7 +28781,7 @@ export const allProperties = {
                 "example": "",
                 "variationAllowed": false,
                 "type": "select",
-                "options": "propertyEnums/material**"
+                "options": propertyEnums.material
             },
             {
                 "name": "Size",
